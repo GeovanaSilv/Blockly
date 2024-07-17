@@ -109,14 +109,61 @@ Blockly.Blocks['numero'] = {
                 args0:[
                     {
                         type:"field_image",
-                        src: "grecia.jpg",
+                        src: "lua.png",
                         width:"150",
                         height:"150"
                     }
-                ], colour:888
+                ], colour:888, output:"lua"
             })
         }
       }
+
+      Blockly.Blocks['IMG2']= {
+        init: function(){
+            this.jsonInit({
+                message0:"%1",
+                args0:[
+                    {
+                        type:"field_image",
+                        src: "saturn.jpg",
+                        width:"150",
+                        height:"150"
+                    }
+                ], colour:488, output:"saturn"
+            })
+        }
+      }
+
+
+    Blockly.Blocks['jogo1']={
+      init:function(){
+        this.jsonInit({
+          message0:' Moon %1  ' ,
+          args0:[{
+                  type:"input_value",
+                  name:"parte1",
+                  check:"lua"
+          },
+         
+          ], colour:98
+        })
+      }
+    }
+    Blockly.Blocks['jogo2']={
+      init:function(){
+        this.jsonInit({
+          message0:' Saturn %1  ' ,
+          args0:[{
+                  type:"input_value",
+                  name:"parte1",
+                  check:"saturn"
+          },
+         
+          ], colour:98
+        })
+      }
+    }
+
 
 
 

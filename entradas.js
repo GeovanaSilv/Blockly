@@ -1,3 +1,4 @@
+
 //ENTRADAS DE CAMPOS
 Blockly.Blocks['entrada']={
     init:function(){
@@ -27,7 +28,7 @@ Blockly.Blocks['saida']={
             
                   
               }
-            ], colour:85, output:"opa1"
+            ], colour:85, output:"opa1", 
 
         })
     }

@@ -18,6 +18,9 @@ var toolbox={
                 {
                     kind:"block",
                     type:"escolha"
+                },{
+                    kind:"block",
+                    type:"Imagens"
                 }
             ], colour:75
         },
@@ -28,6 +31,9 @@ var toolbox={
                 {
                     kind:"block",
                     type:"IMG"
+                },{
+                     kind:"block",
+                    type:"IMG2"
                 }
             ], colour:350
         },
@@ -40,6 +46,38 @@ var toolbox={
                     type:"checkbox"
                 }
             ], colour: 19
+        },
+        {
+            kind:"category",
+            name:"Blocos conectados",
+            contents:[
+                {
+                    kind:"block",
+                    type:"entrada",
+                },{
+                    kind:"block",
+                    type:"saida",
+                }
+            ], colour: 85
+
+        },
+        {
+            kind:"category",
+            name:"Jogo1",
+            contents:[
+                { kind:"block",
+                  type:"jogo1"  
+
+                },
+                { kind:"block",
+                    type:"jogo2"  
+  
+                  },
+                  
+
+            ]
         }
+
+        
     ]
 }

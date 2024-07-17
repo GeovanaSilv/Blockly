@@ -9,22 +9,17 @@
   <body>
     <div id="blocklyDiv" style="height: 768px; width: 1024px;"></div>
     <xml id="toolbox" style="display: none">
-      <block type="numero"></block>
-      <block type="escolha"></block>
-      <block type="Imagens"></block>
-      <block type="checkbox"></block>
-      <block type="label"></block>
-      <block type="label1"></block>
-      <block type="IMG"></block>  
-      <block type="saida"></block>
-      <block type="entrada"></block>  
    </xml>
-    <script>
-    var workspace = Blockly.inject('blocklyDiv',
-          {toolbox: document.getElementById('toolbox')});
 
-   /*var workspace = Blockly.inject('blocklyDiv', {toolbox: toolbox});*/
+    <script>
+   /* var workspace = Blockly.inject('blocklyDiv',
+          {toolbox: document.getElementById('toolbox')});
+          */
+          var workspace = Blockly.inject('blocklyDiv', {toolbox: toolbox});   
 
     </script>
+            
+
+
   </body>
 </html>
