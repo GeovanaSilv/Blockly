@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/blockly/blockly.min.js"></script>
+
+
+ <script src="arq.js"></script>
+ <style>
+    h1{
+        text-align: center;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    
+ </style>
+  </head>
+  <body>
+    <h1> Quebra-cabeça</h1>
+
+    <div id="blocklyDiv" style="height: 768px; width: 1068;"></div>
+    <xml id="toolbox" style="display: none">
+        <block type="parte1"></block>
+        <block type="parte2"></block>
+   </xml>
+
+    <script>
+    
+
+    var workspace = Blockly.inject('blocklyDiv',
+          {toolbox: document.getElementById('toolbox')});
+          
+          
+    </script>
+            
+
+
+  </body>
+</html>
